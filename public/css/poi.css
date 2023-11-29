@@ -1,0 +1,224 @@
+#poidemo tr>td:last-child, #poidemo tr>td:nth-child(7), #poidemo_info, #modal-error{
+    display:none;
+}
+
+.modal-header{
+    overflow:hidden;
+}
+.filter-option.pull-left, #poidemo tr > td {
+    text-transform: capitalize!important;
+}
+table.dataTable tbody tr{
+    cursor: pointer;
+}
+table.dataTable tbody tr.selected{
+    background-color:inherit!important;
+}
+.nostyle{
+    border: 0;
+    background: none;
+    float:right;
+    margin-left: 10px;
+}
+
+.nostyle p {
+    font-size: 10px;
+}
+
+#poidemo tbody tr td:first-child{
+    max-width:50px!important;
+}
+#poidemo tbody, #poidemo thead, table.dataTable.no-footer, table.dataTable thead th, table.dataTable thead td{
+    border:0;
+}
+table.dataTable thead .sorting_desc, table.dataTable thead .sorting_asc{
+    background:none!important;
+}
+.dataTables_wrapper .dataTables_paginate .paginate_button{
+    padding:0;
+}
+.paginate_button a{
+    font-size:9px;
+}
+#poidemo_wrapper label,#poidemo_info{
+    font-size:9px!important;
+}
+#poidemo th{
+    font-weight:300;
+    text-transform:uppercase;
+}
+#poidemo tr{
+    font-size:12px;
+}
+#poidemo{
+    width:auto!important;
+}
+#poidemo .odd{
+    background:#f7f7f7;
+}
+#map {
+    height: 100%;
+}
+#poi-demographics-uploader-wrapper{
+    padding-bottom:10px;
+    border-bottom: 1px solid #a8a8a8;
+    margin-bottom: 30px;
+}
+.bootstrap-select>.dropdown-toggle.bs-placeholder, .bootstrap-select>.dropdown-toggle.bs-placeholder:active, .bootstrap-select>.dropdown-toggle.bs-placeholder:focus, .bootstrap-select>.dropdown-toggle.bs-placeholder:hover{
+    color:#000!important;
+}
+.placemark-toggle{
+    background: none !important;
+    border: 0 !important;
+}
+.search-container{
+    padding-bottom:20px;
+}
+#response-message-modal {
+    display: inline-block;
+    position: fixed;
+    z-index: 9999;
+    top: 0;
+    left: 0;
+    right: 0;
+    text-align: center;
+    background-color: #0000003d;
+    height: 100vh;
+}
+
+#response-message-wrapper {
+    position: relative;
+    top: 15%;
+}
+
+#response-message {
+    text-align: left;
+    text-decoration: none;
+    list-style-type: none;
+    padding-left: 10px;
+}
+
+div.modal-header {
+    padding-bottom: 10px;
+}
+
+.hide {
+    display: none;
+}
+
+.modal-header h4 {
+    margin-top: 0;
+    line-height: 25px;
+}
+
+.modal-header button {
+    background-color: transparent;
+    float: right;
+}
+
+.modal-header div {
+    display: inline-block;
+}
+
+.modal-header div:nth-child(1) {
+    float: left;
+    width: 80%;
+    text-align: left;
+}
+
+.modal-header div:nth-child(2) {
+    width: 20%;
+}
+
+#demogrphic-attributes .categories {
+    text-align: left;
+}
+
+#demogrphic-attributes .category-attributes {
+    width: 50%;
+    float: right;
+}
+
+#demogrphic-attributes .category-attributes select {
+    display: block;
+    margin-bottom: 12px;
+}
+
+#demogrphic-attributes .categories {
+    width: 50%;
+    float: left;
+}
+
+.modal-body{
+    overflow-y: scroll;
+    max-height: 400px;
+}
+
+#property-value{
+    float: right;
+}
+
+#modal-checker{
+    opacity: 0;
+}
+
+#modal-checker .fa-check-circle::before,.success{
+    color: green;
+}
+
+.fast-spin {
+    -webkit-animation: fa-spin 0.3s infinite linear;
+    animation: fa-spin 0.3s infinite linear;
+  }
+
+#modal-error .fa-check-times::before{
+    color: red;
+}
+
+.propVal .col-md-12 .row{
+    display: table-row;
+}
+.propVal .col-md-12 .col-md-3{
+    display: table-cell;
+    padding-bottom: 25px;
+    position: relative;
+}
+
+.propVal .col-md-12 .col-md-3 label{
+    position: relative;
+    min-height: 76px;
+}
+
+.propVal .col-md-12 .col-md-3 input{
+    position: absolute;
+    bottom: 0;
+    left: calc(50% - 29.3px);
+    
+}
+
+.propVal .col-md-12 .col-md-3 input::after{
+    content: '%';
+}
+
+.propVal .col-md-12 .col-md-3 span{
+    position: relative;
+}
+
+.propVal .col-md-12 .col-md-3 label{
+    width:100%;
+}
+
+.propVal .col-md-12 .col-md-3 span.perc{
+    position: absolute;
+    right:0px;
+    bottom:4px;
+}
+
+.propVal .col-md-12 .col-md-3 input[type=number]::-webkit-inner-spin-button, 
+.propVal .col-md-12 .col-md-3 input[type=number]::-webkit-outer-spin-button { 
+  -webkit-appearance: none; 
+  margin: 0; 
+}
+.modal-dialog {
+    width: 800px!important;
+}

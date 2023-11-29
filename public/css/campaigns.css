@@ -1,0 +1,186 @@
+.fixedHeader-floating {
+    top: -6px !important;
+}
+
+.update-page .fixedHeader-floating,
+.update-page .fixedHeader-locked,
+.action-panel {
+    top: -600px !important;
+}
+
+.toggle-vis.group {
+    padding: 20px 2px;
+}
+
+.toggle-vis.btn,
+.toggle-vis.btn-sm,
+.toggle-vis.btn-xs {
+    margin-bottom: 4px;
+    padding: 1px 6px;
+    font-size: 12px;
+    border-radius: 3px;
+}
+
+.toggle-vis.btn.btn-default,
+.toggle-vis.btn-sm.btn-default,
+.toggle-vis.btn-xs.btn-default {
+    color: #333;
+    background-color: #e6e6e6;
+    border-color: #adadad;
+}
+
+.update-page #action-panel {
+    display: none !important;
+}
+
+.modal[aria-hidden="false"] {
+    /*color: red;*/
+}
+
+.modal[aria-hidden="false"] #action-panel {
+    display: none !important;
+}
+
+#action-panel.panel {
+    text-align: center;
+    position: fixed;
+    z-index: 100000;
+    left: 10%;
+    width: 78%;
+    bottom: 0;
+    margin-left: 14px;
+    margin-bottom: 32px;
+}
+
+#action-panel.panel .btn {
+    font-size: 12px;
+}
+
+.campaign-indicator {
+    text-align: center;
+    display: inline-block;
+}
+
+.campaign-indicator.block {
+    display: block;
+}
+
+.campaign-indicator .fa-times {
+    color: #d9534f;
+}
+
+.campaign-indicator .fa-check,
+.campaign-indicator .fa-play,
+.campaign-indicator .fa-play-circle-o {
+    color: #5cb85c;
+}
+
+.campaign-indicator .fa-question {
+    color: #428bca;
+}
+
+.campaign-indicator .fa-pause,
+.campaign-indicator .fa-pause-circle-o {
+    color: #f0ad4e;
+}
+
+.campaign-indicator span {
+    margin-left: 5px;
+}
+
+.campaign-indicator span.hidden {
+    display: none;
+}
+
+#content-categories-text span.label {
+    display: inline-block;
+    margin: 2px;
+}
+
+#new-content-categories-text span.label {
+    display: inline-block;
+    margin: 2px;
+}
+
+.label-plain {
+    font-size: 80%;
+    font-weight: normal;
+    background-color: #ffffff59;
+    color: #2a2929;
+}
+
+#notes-loading{
+    width: 100%;
+    height: 100%;
+    outline: none;
+    resize: none;
+}
+
+#campaign-owner::after {
+  color:green;
+}
+
+
+	.hide-field{
+		display: none;
+	}
+	.tab-content{
+		padding: 30px 0 300px 0;
+	}
+	.media-buying-group{
+		/* padding: 30px 0; */
+	}
+    #stats-banners,#stats-landing-creatives,#stats-locations,#stats-publishers{
+        font-size:40px;
+
+    }
+	.media-buying-group input{
+		border: none;
+		background-color: white !important;
+		font-size: 1em;
+	}
+    #rate{
+        /* width:165px  ; */
+    }
+    #budget{
+        /* width:196px;  */
+    }
+
+    #servedImpressions,#servedClicks,#remainDays,#clickRate,#engagementsRate,#deliveryRatios{
+       width:100%;
+       border: none;
+        background-color: #f5f5f5 !important;
+    }
+
+    h4{
+        text-align:center;
+        margin-bottom:10px;
+    }
+    #borders{
+        border-style: solid;
+        border-width: 10px;
+        padding-top:10px;
+        padding-bottom:10px;
+        border:3px solid #dddddd;
+        border-radius: 5px;
+        background-color: #f5f5f5;
+    }
+   #head{
+       margin-bottom:10px;
+   }
+   h2,#notes,#geoIPNotification,#upate-successful{
+        width:90%;
+        margin: auto;
+
+    }
+    #serveBorder{
+        border-right: 1px solid #dddddd;
+
+    }
+    #border{
+        border-right: 1px solid black
+    }
+    .nav-tabs>li.active>a, .nav-tabs>li.active>a:focus, .nav-tabs>li.active>a:hover {
+        background-color: #286090;
+        color:white;
+    }

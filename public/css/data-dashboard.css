@@ -1,0 +1,128 @@
+.content-item.grey {
+    background-color:#F0F0F0;
+    padding:50px 0;
+    height:100%;
+}
+
+.content-item h2 {
+    font-weight:700;
+    font-size:35px;
+    line-height:45px;
+    text-transform:uppercase;
+    margin:20px 0;
+}
+
+.content-item h3 {
+    font-weight:400;
+    font-size:20px;
+    color:#555555;
+    margin:10px 0 15px;
+    padding:0;
+}
+
+.content-headline {
+    height:1px;
+    text-align:center;
+    margin:20px 0 70px;
+}
+
+.content-headline h2 {
+    background-color:#FFFFFF;
+    display:inline-block;
+    margin:-20px auto 0;
+    padding:0 20px;
+}
+
+.grey .content-headline h2 {
+    background-color:#F0F0F0;
+}
+
+.content-headline h3 {
+    font-size:14px;
+    color:#AAAAAA;
+    display:block;
+}
+
+#comments form fieldset {
+    clear:both;
+}
+
+
+#comments .media {
+    padding:20px 0 ;
+}
+
+.border-top-dashed {
+    border-top:1px dashed #DDDDDD;
+}
+.border-bottom-dashed {
+    border-bottom:1px dashed #DDDDDD;
+}
+
+#comments .media > .pull-left {
+    margin-right:20px;
+}
+
+#comments .media img {
+    max-width:100px;
+}
+
+#comments .media h4 {
+    margin:0 0 10px;
+}
+
+#comments .media h4 span {
+    font-size:14px;
+    float:right;
+    color:#999999;
+}
+
+#comments .media p {
+    margin-bottom:15px;
+}
+
+#comments .media-detail {
+    margin:0;
+}
+
+#comments .media-detail li {
+    color:#AAAAAA;
+    font-size:12px;
+    padding-right: 10px;
+    font-weight:600;
+}
+
+#comments .media-detail a:hover {
+    text-decoration:underline;
+}
+
+#comments .media-detail li:last-child {
+    padding-right:0;
+}
+
+#comments .media-detail li i {
+    color:#666666;
+    font-size:15px;
+    margin-right:10px;
+}
+
+#comment-form {
+    padding: 0 20px;
+}
+
+.comment_section .row:first-child {
+    border: 0;
+}
+.comment_section {
+    margin: 50px 0 0;
+    padding:0 20px;
+    min-height: 270px;
+    overflow: scroll;
+}
+.comment_section > div {
+    background: #f1f1f1;
+}
+
+#description {
+    margin: 10px 0;
+}

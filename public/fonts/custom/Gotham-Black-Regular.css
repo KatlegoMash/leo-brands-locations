@@ -1,0 +1,6 @@
+@font-face {
+font-family: 'Gotham Black';
+font-style: normal;
+font-weight: normal;
+src: local('Gotham Black'), url('Gotham-Black-Regular.woff') format('woff');
+}
